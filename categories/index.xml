@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>shawn</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 14:30:58 +0000</lastBuildDate><atom:link href="https://shawncheung.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://shawncheung.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://shawncheung.com/categories/blog/</link>
+      <pubDate>Tue, 04 May 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://shawncheung.com/categories/blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>数码</title>
       <link>https://shawncheung.com/categories/%E6%95%B0%E7%A0%81/</link>

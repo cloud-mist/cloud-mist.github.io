@@ -6,9 +6,116 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>shawn</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 14:30:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 May 2021 21:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://shawncheung.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Blog搭建的那点小事</title>
+        <link>https://shawncheung.com/post/hugoanddiary/</link>
+        <pubDate>Tue, 04 May 2021 21:00:00 +0000</pubDate>
+        
+        <guid>https://shawncheung.com/post/hugoanddiary/</guid>
+        <description>忆の風 https://shawncheung.com/post/hugoanddiary/ -&lt;h2 id=&#34;一相识&#34;&gt;一、相识&lt;/h2&gt;
+&lt;p&gt;  原来是在&lt;code&gt;Hexo&lt;/code&gt;平台，折腾&lt;code&gt;Next主题&lt;/code&gt;,过了一段时间发现那并不是我想要的。&lt;br /&gt;
+  首先,hexo有点慢这是实话，所以早换晚换肯定要换，那就搜搜看，结果便找到了&lt;code&gt;Hugo&lt;/code&gt;,由Golang开发而成,速度很快。
+Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了&lt;code&gt;Even&lt;/code&gt;，用了一段时间，还是觉得不太美观，但已经相当美观，而且功能很全，已经接近了我想要的东西。
+于是乎，便又在Github上翻，发现了目前的主题&lt;code&gt;Diary&lt;/code&gt;,界面已经很棒，功能还有待补全。&lt;br /&gt;
+  只得一声叹息，为什么我不会前端，why，也许最适合自己的是自己造一个。可惜不会，还不学，那有啥子办法呢？等时机成熟，等我学，便是一个新的主题的诞生。&lt;br /&gt;
+  诶，这主题换了不少，结果定睛一看,好家伙,博文几乎为0,这&amp;hellip;🤣&lt;/p&gt;
+&lt;h2 id=&#34;二安装&#34;&gt;二、安装&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo: &lt;a href=&#34;https://www.gohugo.org/&#34;&gt;官方文档zh版&lt;/a&gt;
+照链接安装即可。哈？那这篇文章存在的意义在哪里&lt;/li&gt;
+&lt;li&gt;Diary: &lt;a href=&#34;https://github.com/AmazingRise/hugo-theme-diary&#34;&gt;说明文档&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三简易配置&#34;&gt;三、简易配置&lt;/h2&gt;
+&lt;h3 id=&#34;前期工作&#34;&gt;前期工作&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;把主题exampleSite文件夹里的&lt;code&gt;config.toml&lt;/code&gt; copy到&lt;code&gt;博客根目录&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;把&lt;code&gt;archetypes&lt;/code&gt;里的&lt;code&gt;default.md&lt;/code&gt;放到博客那个文件夹&lt;/li&gt;
+&lt;li&gt;照说明文档把config.toml改一下&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;about页&#34;&gt;About页&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;config.toml&lt;/code&gt;添加以下内容
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[[menu.main]]
+url = &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;/about/index.html&amp;#34;&lt;/span&gt;
+name = &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;關於&amp;#34;&lt;/span&gt; 
+weight = &lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;   &lt;span style=&#34;color:#6272a4&#34;&gt;# 位置摆放&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;在&lt;code&gt;content&lt;/code&gt;文件夹下创建&lt;code&gt;about.md&lt;/code&gt;即可&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;插入图片&#34;&gt;插入图片&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;先需要修改&lt;code&gt;config.toml&lt;/code&gt;,在&lt;code&gt;[markup]&lt;/code&gt;下添加以下内容(记得缩进)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[markup.goldmark]
+  [markup.goldmark.renderer]
+    hardWraps = &lt;span style=&#34;color:#ff79c6&#34;&gt;false&lt;/span&gt;
+    unsafe = &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+    xHTML = &lt;span style=&#34;color:#ff79c6&#34;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用的&lt;code&gt;&amp;lt;img src=&amp;quot;&amp;quot; width= /&amp;gt;&lt;/code&gt;配合&lt;code&gt;&amp;lt;center&amp;gt;&lt;/code&gt;;图片文件夹放置在&lt;code&gt;static&lt;/code&gt;下。&lt;br /&gt;
+为什么不使用&lt;code&gt;shortcode&lt;/code&gt;,主要是没搞懂;&lt;br /&gt;
+为什么不使用markdown语法，因为没法定义大小&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;博客中间宽度&#34;&gt;博客中间宽度&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;位置：&lt;code&gt;diary/assets/scss/journal.scss&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;内容：本来两边都是25%，调整两边的百分比就可以了
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-scss&#34; data-lang=&#34;scss&#34;&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;$side-container-width&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;21&lt;/span&gt;&lt;span style=&#34;color:#8be9fd&#34;&gt;%&lt;/span&gt;;
+&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;$extra-container-width&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;21&lt;/span&gt;&lt;span style=&#34;color:#8be9fd&#34;&gt;%&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;主题有待完善&#34;&gt;主题有待完善&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;tags页面
+&lt;ul&gt;
+&lt;li&gt;目前情况：一个标签占一行。很浪费，不美观，翻阅点击很费劲。&lt;/li&gt;
+&lt;li&gt;希望改变：多个标签一行,如果有多篇文章提了这个标签，就让此标签变大加重。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;图片浏览
+&lt;ul&gt;
+&lt;li&gt;目前情况：点击不了，没法放大，只图片浏览。&lt;/li&gt;
+&lt;li&gt;希望改变：加入可以点击浏览所有图片的功能。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;代码
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;copy&lt;/code&gt;按钮，&lt;code&gt;折叠&lt;/code&gt;功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;目录
+&lt;ul&gt;
+&lt;li&gt;没有一级标题不显示(强制展开，就不能折叠)&lt;/li&gt;
+&lt;li&gt;不会 自动折叠/展开 子标题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;全局搜索
+&lt;ul&gt;
+&lt;li&gt;可能当博文多了，这个功能应该是需要的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;自身待解决&#34;&gt;自身待解决&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;sitemap
+&lt;ul&gt;
+&lt;li&gt;不知道怎么加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;四总结&#34;&gt;四、总结&lt;/h2&gt;
+&lt;p&gt;  总之，至少主题风格很对口味，可惜一些需求没有实现,但任何东西本身就没有完美之说,不是吗。&lt;br /&gt;
+  See you next time.&lt;/p&gt;
+- https://shawncheung.com/post/hugoanddiary/ - shawn</description>
+        </item>
     
     
     

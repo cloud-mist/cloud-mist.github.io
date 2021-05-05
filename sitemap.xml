@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shawncheung.com/post/kindle%E5%BC%80%E7%AE%B1/</loc>
-    <lastmod>2021-01-01T14:30:58+00:00</lastmod>
+    <loc>https://shawncheung.com/categories/blog/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/blog/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/post/hugoanddiary/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/categories/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/hugo/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/post/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/tags/theme/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/</loc>
+    <lastmod>2021-05-04T21:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shawncheung.com/post/kindle%E5%BC%80%E7%AE%B1/</loc>
     <lastmod>2021-01-01T14:30:58+00:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/kindle/</loc>
     <lastmod>2021-01-01T14:30:58+00:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/tags/paperwhite4/</loc>
-    <lastmod>2021-01-01T14:30:58+00:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/post/</loc>
-    <lastmod>2021-01-01T14:30:58+00:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/tags/</loc>
-    <lastmod>2021-01-01T14:30:58+00:00</lastmod>
-  </url><url>
-    <loc>https://shawncheung.com/</loc>
     <lastmod>2021-01-01T14:30:58+00:00</lastmod>
   </url><url>
     <loc>https://shawncheung.com/categories/%E6%95%B0%E7%A0%81/</loc>
