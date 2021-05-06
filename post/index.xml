@@ -22,7 +22,7 @@
 [markup.goldmark] [markup.goldmark.renderer] hardWraps = false unsafe = true xHTML = true   使用的&amp;lt;img src=&amp;quot;&amp;quot; width= /&amp;gt;配合&amp;lt;center&amp;gt;;图片文件夹放置在static下。
 为什么不使用shortcode,主要是没搞懂;
 为什么不使用markdown语法，因为没法定义大小
-  博客中间宽度  位置：diary/assets/scss/journal.scss 内容：本来两边都是25%，调整两边的百分比就可以了 $side-container-width: 21%; $extra-container-width: 21%;   主题有待完善  tags页面  目前情况：一个标签占一行。很浪费，不美观，翻阅点击很费劲。 希望改变：多个标签一行,如果有多篇文章提了这个标签，就让此标签变大加重。   图片浏览  目前情况：点击不了，没法放大，只图片浏览。 希望改变：加入可以点击浏览所有图片的功能。   代码  copy按钮，折叠功能   目录  没有一级标题不显示(强制展开，就不能折叠) 不会 自动折叠/展开 子标题   全局搜索  可能当博文多了，这个功能应该是需要的    自身待解决  sitemap  不知道怎么加    四、总结  总之，至少主题风格很对口味，可惜一些需求没有实现,但任何东西本身就没有完美之说,不是吗。</description>
+  博客中间宽度  位置：diary/assets/scss/journal.scss 内容：本来两边都是25%，调整两边的百分比就可以了 $side-container-width: 21%; $extra-container-width: 21%;   主题有待完善  tags页面  目前情况：一个标签占一行。很浪费，不美观，翻阅点击很费劲。 希望改变：多个标签一行,如果有多篇文章提了这个标签，就让此标签变大加重。   图片浏览  目前情况：点击不了，没法放大，只图片浏览。 希望改变：加入可以点击浏览所有图片的功能。   代码  copy按钮，折叠功能   目录  没有一级标题不显示(强制展开，就不能折叠) 不会 自动折叠/展开 子标题    四、总结  总之，至少主题风格很对口味，可惜一些需求没有实现,但任何东西本身就没有完美之说,不是吗。</description>
     </item>
     
     <item>
