@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on 忆の風</title>
-    <link>https://www.shawncheung.com/tags/hugo/</link>
+    <link>https://shawncheung.com/tags/hugo/</link>
     <description>Recent content in hugo on 忆の風</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>shawn</copyright>
-    <lastBuildDate>Tue, 04 May 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://www.shawncheung.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 21:00:00 +0000</lastBuildDate><atom:link href="https://shawncheung.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog搭建的那点小事</title>
-      <link>https://www.shawncheung.com/post/hugoanddiary/</link>
+      <link>https://shawncheung.com/post/hugoanddiary/</link>
       <pubDate>Tue, 04 May 2021 21:00:00 +0000</pubDate>
       
-      <guid>https://www.shawncheung.com/post/hugoanddiary/</guid>
+      <guid>https://shawncheung.com/post/hugoanddiary/</guid>
       <description>一、相识  原来是在Hexo平台，折腾Next主题,过了一段时间发现那并不是我想要的。
 首先,hexo有点慢这是实话，所以早换晚换肯定要换，那就搜搜看，结果便找到了Hugo,由Golang开发而成,速度很快。 Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了Even，用了一段时间，还是觉得不太美观，但已经相当美观，而且功能很全，已经接近了我想要的东西。 于是乎，便又在Github上翻，发现了目前的主题Diary,界面已经很棒，功能还有待补全。
 只得一声叹息，为什么我不会前端，why，也许最适合自己的是自己造一个。可惜不会，还不学，那有啥子办法呢？等时机成熟，等我学，便是一个新的主题的诞生。

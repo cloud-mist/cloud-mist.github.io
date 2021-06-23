@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 忆の風</title>
-    <link>https://www.shawncheung.com/post/</link>
+    <link>https://shawncheung.com/post/</link>
     <description>Recent content in Posts on 忆の風</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>shawn</copyright>
-    <lastBuildDate>Thu, 13 May 2021 20:44:07 +0800</lastBuildDate><atom:link href="https://www.shawncheung.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 20:44:07 +0800</lastBuildDate><atom:link href="https://shawncheung.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>教资面试备考</title>
-      <link>https://www.shawncheung.com/post/tft/</link>
+      <link>https://shawncheung.com/post/tft/</link>
       <pubDate>Thu, 13 May 2021 20:44:07 +0800</pubDate>
       
-      <guid>https://www.shawncheung.com/post/tft/</guid>
+      <guid>https://shawncheung.com/post/tft/</guid>
       <description>一、教案 题目  注意：一定不能忘记写题目  教学目标  知识与技能目标
 题目的内容给出 过程与方法目标
 在..过程中，培养什么样的能力。 情感态度与价值观目标
@@ -25,10 +25,10 @@
     
     <item>
       <title>Blog搭建的那点小事</title>
-      <link>https://www.shawncheung.com/post/hugoanddiary/</link>
+      <link>https://shawncheung.com/post/hugoanddiary/</link>
       <pubDate>Tue, 04 May 2021 21:00:00 +0000</pubDate>
       
-      <guid>https://www.shawncheung.com/post/hugoanddiary/</guid>
+      <guid>https://shawncheung.com/post/hugoanddiary/</guid>
       <description>一、相识  原来是在Hexo平台，折腾Next主题,过了一段时间发现那并不是我想要的。
 首先,hexo有点慢这是实话，所以早换晚换肯定要换，那就搜搜看，结果便找到了Hugo,由Golang开发而成,速度很快。 Okay,平台有了，那还得有个主题不是，找啊找找啊找，发现了Even，用了一段时间，还是觉得不太美观，但已经相当美观，而且功能很全，已经接近了我想要的东西。 于是乎，便又在Github上翻，发现了目前的主题Diary,界面已经很棒，功能还有待补全。
 只得一声叹息，为什么我不会前端，why，也许最适合自己的是自己造一个。可惜不会，还不学，那有啥子办法呢？等时机成熟，等我学，便是一个新的主题的诞生。
@@ -42,10 +42,10 @@
     
     <item>
       <title>2021年的第一次开箱-kindle</title>
-      <link>https://www.shawncheung.com/post/kindle%E5%BC%80%E7%AE%B1/</link>
+      <link>https://shawncheung.com/post/kindle%E5%BC%80%E7%AE%B1/</link>
       <pubDate>Fri, 01 Jan 2021 14:30:58 +0000</pubDate>
       
-      <guid>https://www.shawncheung.com/post/kindle%E5%BC%80%E7%AE%B1/</guid>
+      <guid>https://shawncheung.com/post/kindle%E5%BC%80%E7%AE%B1/</guid>
       <description>&amp;quot; 我并没有什么方法,只是对于一件事情很长时间很热心地去考虑罢了。&amp;quot; ——牛顿
  前言  其实在很久很久以前，就想要用kindle来看书，只是迫于种种原因而迟迟未动。例如这些：
  它只是个看书的产品，没有其他额外的功能，我为什么不买个ipad呢; 它刷新的时候，还要闪几下，就很烦; 它操作起来和老年机一样慢，不能忍受; 它有点小贵，我为什么不把那几百块钱吃点好的呢。   我现在再次看来，也许这些都不是问题。我们追求的是什么东西？不过是纯粹的阅读体验罢了，多余的功能那才是多余吧。
