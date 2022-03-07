@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-07T12:51:33+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">忆の風</title><subtitle>Hello, 这里是一名自由随心的浪人。 喜欢音乐，吉他，魔方，银河恶魔城。 喜欢动漫，科幻，喜剧电影。 喜欢Golang，Linux美化，nvim。</subtitle><entry><title type="html">平行宇宙理论</title><link href="http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu.html" rel="alternate" type="text/html" title="平行宇宙理论" /><published>2022-03-06T21:00:52+08:00</published><updated>2022-03-06T21:00:52+08:00</updated><id>http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu</id><content type="html" xml:base="http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu.html"><![CDATA[<h2 id="定义">定义</h2>
+I"B<h2 id="定义">定义</h2>
 <p>多元宇宙论（英语：Multiverse, Maniverse, Megaverse, Omniverse, Parallel Universe），指的是一种在物理学里尚未证实的假说。在我们的宇宙之外，很可能还存在着其他的宇宙，而这些宇宙是宇宙的可能状态的一种反应，这些宇宙可能其基本物理常数和我们所认知的宇宙相同，也可能不同。多元宇宙这个名词是由美国哲学家与心理学家威廉·詹姆士在1895年所提出的。</p>
 
 <p>平行宇宙经常被用以说明：一个事件不同的过程或一个不同的决定的后续发展是存在于不同的平行宇宙中的；这个理论也常被用于解释其他的一些悖论，像关于时间旅行的一些悖论，像“一颗球落入时光隧道，回到过去撞上了自己因而使得自己无法进入时光隧道”，解决此诡论除了假设时间旅行是不可能外，也可以以平行宇宙作解释，而根据平行宇宙理论，这颗球撞上自己和没有撞上自己是两个不同的平行宇宙。</p>
@@ -69,20 +69,5 @@
   <li><a href="https://zh.wikipedia.org/zh-cn/%E5%A4%9A%E9%87%8D%E5%AE%87%E5%AE%99%E8%AB%96">wikipedia: 多重宇宙论</a></li>
   <li><a href="https://zh.wikipedia.org/zh-cn/%E5%8F%AF%E8%A7%80%E6%B8%AC%E5%AE%87%E5%AE%99">wikipedia: 可观测宇宙</a></li>
   <li><a href="https://www.zhihu.com/question/19707850">zhihu: 如何理解平行宇宙</a></li>
-</ol>]]></content><author><name></name></author><category term="天文" /><summary type="html"><![CDATA[定义 多元宇宙论（英语：Multiverse, Maniverse, Megaverse, Omniverse, Parallel Universe），指的是一种在物理学里尚未证实的假说。在我们的宇宙之外，很可能还存在着其他的宇宙，而这些宇宙是宇宙的可能状态的一种反应，这些宇宙可能其基本物理常数和我们所认知的宇宙相同，也可能不同。多元宇宙这个名词是由美国哲学家与心理学家威廉·詹姆士在1895年所提出的。]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/02/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-02-28T15:32:52+08:00</published><updated>2022-02-28T15:32:52+08:00</updated><id>http://localhost:4000/jekyll/update/2022/02/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/02/28/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Jekyll requires blog post files to be named according to the following format: YEAR-MONTH-DAY-title.MARKUP Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts "Hi, #{name}" end print_hi('Tom') #=&gt; prints 'Hi, Tom' to STDOUT. Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].]]></summary></entry></feed>
+</ol>
+:ET
