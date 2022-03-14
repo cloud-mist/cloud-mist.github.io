@@ -1,0 +1,11 @@
+I"�<h2 id="data-file-是干嘛的">Data File 是干嘛的</h2>
+<p>从<code class="language-plaintext highlighter-rouge">_data</code> 文件夹下的<code class="language-plaintext highlighter-rouge">YAML</code>,<code class="language-plaintext highlighter-rouge">JSON</code>，<code class="language-plaintext highlighter-rouge">CSV</code>载入数据,主要是为了方便大量数据的复用。<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>http://jekyllcn.com/docs/datafiles/ <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

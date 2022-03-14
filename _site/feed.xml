@@ -1,4 +1,284 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-07T12:51:33+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">忆の風</title><subtitle>Hello, 这里是一名自由随心的浪人。 喜欢音乐，吉他，魔方，银河恶魔城。 喜欢动漫，科幻，喜剧电影。 喜欢Golang，Linux美化，nvim。</subtitle><entry><title type="html">平行宇宙理论</title><link href="http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu.html" rel="alternate" type="text/html" title="平行宇宙理论" /><published>2022-03-06T21:00:52+08:00</published><updated>2022-03-06T21:00:52+08:00</updated><id>http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu</id><content type="html" xml:base="http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu.html"><![CDATA[<h2 id="定义">定义</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-14T13:51:36+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">忆の風</title><subtitle>Hello, 这里是一名自由随心的浪人。 喜欢音乐，吉他，魔方，银河恶魔城。 喜欢动漫，科幻，喜剧电影。 喜欢Golang，Linux美化，nvim。</subtitle><entry><title type="html">Jekyll的Data File</title><link href="http://localhost:4000/jekyll/2022/03/14/jekDatafile.html" rel="alternate" type="text/html" title="Jekyll的Data File" /><published>2022-03-14T12:00:52+08:00</published><updated>2022-03-14T12:00:52+08:00</updated><id>http://localhost:4000/jekyll/2022/03/14/jekDatafile</id><content type="html" xml:base="http://localhost:4000/jekyll/2022/03/14/jekDatafile.html"><![CDATA[<h2 id="data-file-是干嘛的">Data File 是干嘛的</h2>
+<p>从<code class="language-plaintext highlighter-rouge">_data</code> 文件夹下的<code class="language-plaintext highlighter-rouge">YAML</code>,<code class="language-plaintext highlighter-rouge">JSON</code>，<code class="language-plaintext highlighter-rouge">CSV</code>载入数据,主要是为了方便大量数据的复用。<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<h2 id="简单实践">简单实践</h2>
+
+<h3 id="1有个数据文件">1.有个数据文件</h3>
+<p>假设有一个这样的csv文件（截取的<strong>片段</strong>）,在<code class="language-plaintext highlighter-rouge">_data</code>文件夹下</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>asciiCode,symbol
+40,(
+41,)
+42,*
+43,+
+44,","
+45,-
+46,.
+47,/
+48,0
+49,1
+</code></pre></div></div>
+
+<h3 id="2运用">2.运用</h3>
+<p>我们就可以在写blog时，通过<code class="language-plaintext highlighter-rouge">site.data.test</code> 访问</p>
+
+<h4 id="code">code</h4>
+
+<p><img src="/assets/jekdatafile1.png" width="70%" /></p>
+
+<h4 id="结果">结果</h4>
+<ul>
+
+  <li>
+  40 -- (
+  </li>
+
+  <li>
+  41 -- )
+  </li>
+
+  <li>
+  42 -- *
+  </li>
+
+  <li>
+  43 -- +
+  </li>
+
+  <li>
+  44 -- ,
+  </li>
+
+  <li>
+  45 -- -
+  </li>
+
+  <li>
+  46 -- .
+  </li>
+
+  <li>
+  47 -- /
+  </li>
+
+  <li>
+  48 -- 0
+  </li>
+
+  <li>
+  49 -- 1
+  </li>
+
+  <li>
+  50 -- 2
+  </li>
+
+  <li>
+  51 -- 3
+  </li>
+
+  <li>
+  52 -- 4
+  </li>
+
+  <li>
+  53 -- 5
+  </li>
+
+  <li>
+  54 -- 6
+  </li>
+
+  <li>
+  55 -- 7
+  </li>
+
+  <li>
+  56 -- 8
+  </li>
+
+  <li>
+  57 -- 9
+  </li>
+
+  <li>
+  58 -- :
+  </li>
+
+  <li>
+  59 -- ;
+  </li>
+
+  <li>
+  60 -- &lt;
+  </li>
+
+  <li>
+  61 -- =
+  </li>
+
+  <li>
+  62 -- &gt;
+  </li>
+
+  <li>
+  63 -- ?
+  </li>
+
+  <li>
+  64 -- @
+  </li>
+
+  <li>
+  65 -- A
+  </li>
+
+  <li>
+  66 -- B
+  </li>
+
+  <li>
+  67 -- C
+  </li>
+
+  <li>
+  68 -- D
+  </li>
+
+  <li>
+  69 -- E
+  </li>
+
+  <li>
+  70 -- F
+  </li>
+
+  <li>
+  71 -- G
+  </li>
+
+  <li>
+  72 -- H
+  </li>
+
+  <li>
+  73 -- I
+  </li>
+
+  <li>
+  74 -- J
+  </li>
+
+  <li>
+  75 -- K
+  </li>
+
+  <li>
+  76 -- L
+  </li>
+
+  <li>
+  77 -- M
+  </li>
+
+  <li>
+  78 -- N
+  </li>
+
+  <li>
+  79 -- O
+  </li>
+
+  <li>
+  80 -- P
+  </li>
+
+  <li>
+  81 -- Q
+  </li>
+
+  <li>
+  82 -- R
+  </li>
+
+  <li>
+  83 -- S
+  </li>
+
+  <li>
+  84 -- T
+  </li>
+
+  <li>
+  85 -- U
+  </li>
+
+  <li>
+  86 -- V
+  </li>
+
+  <li>
+  87 -- W
+  </li>
+
+  <li>
+  88 -- X
+  </li>
+
+  <li>
+  89 -- Y
+  </li>
+
+  <li>
+  90 -- Z
+  </li>
+
+  <li>
+  91 -- [
+  </li>
+
+  <li>
+  92 -- \
+  </li>
+
+  <li>
+  93 -- ]
+  </li>
+
+  <li>
+  94 -- ^
+  </li>
+
+  <li>
+  95 -- _
+  </li>
+
+  <li>
+  96 -- `
+  </li>
+
+  <li>
+  97 -- a
+  </li>
+
+  <li>
+  98 -- b
+  </li>
+
+  <li>
+  99 -- c
+  </li>
+
+</ul>
+
+<h2 id="参考">参考</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>http://jekyllcn.com/docs/datafiles/ <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="jekyll" /><summary type="html"><![CDATA[Data File 是干嘛的 从_data 文件夹下的YAML,JSON，CSV载入数据,主要是为了方便大量数据的复用。1 http://jekyllcn.com/docs/datafiles/ &#8617;]]></summary></entry><entry><title type="html">平行宇宙理论</title><link href="http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu.html" rel="alternate" type="text/html" title="平行宇宙理论" /><published>2022-03-06T21:00:52+08:00</published><updated>2022-03-06T21:00:52+08:00</updated><id>http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu</id><content type="html" xml:base="http://localhost:4000/%E5%A4%A9%E6%96%87/2022/03/06/pu.html"><![CDATA[<h2 id="定义">定义</h2>
 <p>多元宇宙论（英语：Multiverse, Maniverse, Megaverse, Omniverse, Parallel Universe），指的是一种在物理学里尚未证实的假说。在我们的宇宙之外，很可能还存在着其他的宇宙，而这些宇宙是宇宙的可能状态的一种反应，这些宇宙可能其基本物理常数和我们所认知的宇宙相同，也可能不同。多元宇宙这个名词是由美国哲学家与心理学家威廉·詹姆士在1895年所提出的。</p>
 
 <p>平行宇宙经常被用以说明：一个事件不同的过程或一个不同的决定的后续发展是存在于不同的平行宇宙中的；这个理论也常被用于解释其他的一些悖论，像关于时间旅行的一些悖论，像“一颗球落入时光隧道，回到过去撞上了自己因而使得自己无法进入时光隧道”，解决此诡论除了假设时间旅行是不可能外，也可以以平行宇宙作解释，而根据平行宇宙理论，这颗球撞上自己和没有撞上自己是两个不同的平行宇宙。</p>

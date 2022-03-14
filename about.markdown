@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-\ 正在加载中 ...
+
+可以访问[Here](https://shawncheung.com/about/)

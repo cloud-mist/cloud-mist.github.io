@@ -1,0 +1,8 @@
+<ul>
+{% for i in site.data.test %}
+  <li>
+  {{ i.asciiCode }} -- {{ i.symbol }}
+  </li>
+{% endfor %}
+</ul>
+
